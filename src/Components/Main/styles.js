@@ -37,6 +37,7 @@ export const Results = styled.div`
   font-weight: bold;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 600px;
   padding: 10px;
   border-radius: 10px;
@@ -48,7 +49,7 @@ export const Card = styled.div`
   background-color: #ffdeea;
   display: flex;
   flex-direction: column;
-  width: 170px;
+  width: 140px;
   padding: 10px;
   margin: 10px;
   border-radius: 5px;
@@ -59,8 +60,23 @@ export const Card = styled.div`
     border-radius: 30px;
     float: right;
   }
+  strong {
+    font-size: 16px;
+  }
   p {
-    font-size: 10px;
+    font-size: 12px;
+  }
+
+  ul {
+    font-size: 13px;
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+  }
+  li {
+    text-align: center;
+    border: 1px solid #bfbfbf;
   }
 `;
 
@@ -68,5 +84,6 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 85%;
   margin-bottom: 20px;
 `;

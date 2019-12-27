@@ -21,6 +21,11 @@ export default function Main() {
               <strong>Bug</strong>
               <p>Border Terrier</p>
             </div>
+            <ul>
+              <li>Male</li>
+              <li>Small</li>
+              <li>Adult</li>
+            </ul>
           </Card>
           <Card></Card>
           <Card></Card>
@@ -28,7 +33,7 @@ export default function Main() {
           <Card></Card>
           <Card></Card>
         </Wrapper>
-        <Pagination className="colorUP" defaultCurrent={1} total={35} />
+        <Pagination defaultCurrent={1} total={35} pageSize={5} />
       </Results>
     </Container>
   );
