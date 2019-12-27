@@ -58,6 +58,7 @@ class NormalLoginForm extends React.Component {
                 type="primary"
                 htmlType="submit"
                 className="login-form-button colorit"
+                loading={false}
               >
                 Log in
               </Button>

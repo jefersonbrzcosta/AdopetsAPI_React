@@ -1,7 +1,12 @@
 import React from "react";
 
-// import { Container } from './styles';
+import { Container, Filter, Results } from "./styles";
 
 export default function Main() {
-  return <h2>Main Page</h2>;
+  return (
+    <Container>
+      <Filter>Options</Filter>
+      <Results></Results>
+    </Container>
+  );
 }
