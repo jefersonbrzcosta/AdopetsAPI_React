@@ -28,6 +28,12 @@ export const Filter = styled.div`
   padding: 10px;
   border-radius: 10px;
   height: 70%;
+
+  > p {
+    color: #ce3f71;
+    padding-top: 25px;
+    margin-bottom: 0px;
+  }
 `;
 
 export const Results = styled.div`
@@ -53,7 +59,6 @@ export const Card = styled.div`
   padding: 10px;
   margin: 10px;
   border-radius: 5px;
-  height: 150px;
 
   img {
     width: 35px;
@@ -61,6 +66,7 @@ export const Card = styled.div`
     float: right;
   }
   strong {
+    color: #ce3f71;
     font-size: 16px;
   }
   p {
@@ -72,7 +78,7 @@ export const Card = styled.div`
     list-style-type: none;
     width: 100%;
     padding: 0;
-    margin-top: 10px;
+    margin-top: auto;
   }
   li {
     text-align: center;
